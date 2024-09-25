@@ -1,4 +1,4 @@
-# Introductie in Programmeren
+# Basic Web Development
 
 - Academiejaar: 2024-2025
 - Opleiding: Programmeren
