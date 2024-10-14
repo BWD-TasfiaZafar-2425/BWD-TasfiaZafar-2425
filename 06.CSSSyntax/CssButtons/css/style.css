@@ -1,0 +1,17 @@
+body{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   button {
+      display: inline-block; /* Maakt het mogelijk om hoogtes en paddings in te stellen */
+      font-family: Verdana, sans-serif;
+      cursor: pointer;
+  }
+.btn-green{
+   background-color: chartreuse;
+color: #ffffff;
+border: none;
+border-radius: inherit;
+padding: 20px 20px;
+
+}
+
+}
