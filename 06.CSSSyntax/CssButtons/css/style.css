@@ -77,12 +77,14 @@ h2 {
    border-radius: 8px;
    transition: background-color 0.3s ease;
 }
+
 .btn-tiktok img {
    width: 60px;
    height: 59px;
    margin-right: 10px;
-   vertical-align:bottom;
+   vertical-align: bottom;
 }
+
 .btn-tiktok:hover {
    background-color: #e0e0e0;
 }
