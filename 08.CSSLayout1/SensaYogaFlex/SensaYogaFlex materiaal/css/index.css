@@ -1,79 +1,185 @@
-/* ===========================================
-   Banner
-   =========================================== */
-
-#banner {
-   background-image: url(../img/banner.jpg);
-   background-size: cover;
+/* General Styles */
+body {
+   margin: 0;
+   padding: 0;
 }
 
-#banner .wrapper {
-   min-height: 300px;
-}
-   
-.banner_box .btn-cta {
-   font-size: 18px;
-   padding: 14px 30px;   
+.wrapper {
+   width: 90%;
+   max-width: 1200px;
+   margin: 0 auto;
 }
 
-.banner_box .btn-cta:hover {
-   color: white;
+/* Header */
+header {
+   background-color: #a7c4bc;
+   padding: 20px 0;
 }
-   
-.banner_box p {
-   color: #444;
-   font-size: 30px;
-   font-weight: bold;
-   margin-bottom: 30px;
+
+.logo h1 {
+   margin: 0;
+   font-size: 36px;
 }
-   
-/* ===========================================
-   Main
-   
-   =========================================== */
-   
-/* left */
-   
-.mainleft {
-   padding: 30px 15px 0 15px;
+
+.logo p {
+   font-size: 16px;
+   margin-top: -10px;
 }
-   
-#gallery {
-   margin: 35px 0;
+
+nav {
+   float: right;
 }
-   
-/* right */
-   
-.mainright {
-   padding: 30px 15px 0 15px;
+
+#mainmenu {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+   display: flex;
+   gap: 20px;
 }
-   
-.mainright h3 a {
-   border-bottom: 1px solid #cccccc;
+
+#mainmenu li {
+   display: inline;
+}
+
+#mainmenu li a {
+   text-decoration: none;
    color: #333;
 }
-   
-.mainright h3 a:hover {
-   color: #be0a35;
-   text-decoration: none;
-}
-   
-.workshop .date {
-   border: 1px solid #ccc;
+
+#mainmenu .active a {
+   font-weight: bold;
 }
 
-.workshop .day {
-   font-size: 60px;
-   line-height: 1em;
+
+/* Banner */
+#banner {
+   background-image: url('../img/banner.jpg');
+   background-size: cover;
+   background-position: center;
+   padding: 80px 0;
+   color: rgb(1, 1, 1);
+   text-align: center;
 }
-   
-.readmore {
-   display: block;
-   margin-top: 10px;
+
+
+
+.btn-cta {
+   background-color: #4CAF50;
+   color: white;
+   padding: 10px 20px;
+   text-decoration: none;
+   border-radius: 5px;
 }
-   
-   
-   
-   
-   
-   
+
+/* Main Layout */
+
+main {
+   display: flex;
+   margin-top: 5px;
+
+   .wrapper {
+      content: right;
+   }
+
+   /* Left Column */
+   .mainleft {
+      flex: 1;
+   }
+
+   .mainleft h2 {
+      font-size: 28px;
+      margin-bottom: 10px;
+   }
+
+   .mainleft p {
+      line-height: 1.6;
+   }
+
+   #gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 20px;
+   }
+
+   #gallery a {
+      flex: 1 1 calc(33.333% - 10px);
+      /* Creates a responsive grid layout */
+   }
+
+   #gallery img {
+      width: 100%;
+      display: block;
+   }
+
+
+   .mainright {
+      width: 320px;
+      flex-shrink: 0;
+      justify-content: right;
+
+      .mainright h2 {
+         font-size: 24px;
+         margin-bottom: 15px;
+         text-align: right;
+      }
+
+      .workshop {
+         margin-bottom: 20px;
+      }
+
+      .workshop .date {
+         font-size: 24px;
+         font-weight: bold;
+         text-align: center;
+         background-color: #f0f0f0;
+         padding: 10px;
+         margin-bottom: 10px;
+      }
+
+      .thumb {
+         width: 100%;
+         margin-bottom: 10px;
+      }
+   }
+}
+
+/* Footer */
+footer {
+   background-color: #f0f0f0;
+   color: white;
+   text-align: left;
+   padding: 10;
+   margin-top: 5px;
+}
+
+#social_icons {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+   display: flex;
+   justify-content: right;
+   gap: 10px;
+}
+
+#social_icons li {
+   display: inline;
+}
+
+#social_icons a img {
+   width: 24px;
+}
+
+/* Links */
+.lnk-cta, .readmore {
+   color: #4CAF50;
+   text-decoration: none;
+}
+
+/* Clear floats */
+header::after, nav::after {
+   content: "";
+   display: table;
+   clear: both;
+}
