@@ -116,14 +116,14 @@ footer a {
 /* Responsive Adjustments for Grid */
 @media screen and (max-width: 768px) {
    #content {
-       grid-template-columns: 1fr;
+      grid-template-columns: 1fr;
    }
 
    #gallery ul {
-       grid-template-columns: 1fr;
+      grid-template-columns: 1fr;
    }
 
    #doormat .wrapper {
-       grid-template-columns: 1fr;
+      grid-template-columns: 1fr;
    }
 }
