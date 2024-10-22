@@ -42,6 +42,10 @@ address {
 
 /* bottom */
 
+#bottom_content {
+   display: flex;
+}
+
 #main_bottom {
    padding: 40px;
 }
@@ -49,6 +53,12 @@ address {
 iframe {
    border: none;
    width: 100%;
+}
+
+.maps {
+   width: 50%;
+   height: 500px;
+   border: 1px solid #ccc;
 }
 
 .bottomleft {
@@ -112,11 +122,6 @@ form select {
 
 /* Right column (Map section) */
 
-.maps {
-   width: 50%;
-   height: 350px;
-   border: 1px solid #ccc;
-}
 
 header {
    background-color: #b6d3d0;
