@@ -1,0 +1,95 @@
+/* ===========================================
+   Media queries
+   =========================================== */
+   .post__comments {
+      display: none;
+  }
+
+  @media (min-width: 500px) {
+      .post__comments {
+          display: block;
+      }
+  }
+
+.site__footer {
+   display: flex;
+   flex-direction: column; 
+   align-items: center; 
+   padding: 20px;
+   background-color: #333; 
+   color: #fff;
+}
+
+.footer__buttons {
+   display: flex;
+   gap: 10px;
+   margin-bottom: 15px; 
+}
+
+.footer-btn {
+   background-color: #444; 
+   color: #fff; 
+   padding: 10px 20px;
+   border: none;
+   cursor: pointer;
+   border-radius: 5px;
+   transition: background-color 0.3s;
+}
+
+.footer-btn:hover {
+   background-color: #555;
+}
+
+.social__list {
+   display: flex;
+   gap: 10px;
+   padding: 0;
+   list-style: none;
+}
+
+.social__list li a {
+   color: #fff; 
+   text-decoration: none;
+   font-size: 1.5em;
+}
+
+
+@media (min-width: 700px) {
+   .site__footer {
+      flex-direction: row; 
+      justify-content: space-between;
+   }
+
+   .footer__buttons {
+      margin-bottom: 0; 
+   }
+}
+
+
+
+header nav ul {
+   display: block;
+}
+
+main {
+   display: block; 
+}
+
+.post, .about-card, .popular-posts-card, .tags-card {
+   width: 100%; 
+}
+
+
+@media (min-width: 900px) {
+   header nav ul {
+       display: flex;
+       justify-content: space-around;
+
+   }
+main aside { 
+   width: 100%; 
+   margin: 0 auto; 
+   padding: 10px 0;}
+  
+.main_content {display: block; }
+}
