@@ -1,0 +1,20 @@
+/**
+ * Media queries
+ *
+ * @author Rogier van der Linde <rogier.vanderlinde@kahosl.be>
+ *
+ */
+
+@media (min-width: 500px) {.body_banner { padding-left: 80px;
+    max-width: 300px;} }
+
+
+    header nav ul {
+      display: block; }
+@media(min-width: 700px) {
+      header nav ul {
+      display: flex;
+      justify-content: space-around;
+  }
+}
+
