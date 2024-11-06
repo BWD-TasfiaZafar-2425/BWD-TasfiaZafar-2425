@@ -4,17 +4,23 @@
  * @author Rogier van der Linde <rogier.vanderlinde@kahosl.be>
  *
  */
-
+.body_banner {
+   width: 100%;
+}
 @media (min-width: 500px) {.body_banner { padding-left: 80px;
     max-width: 300px;} }
 
 
     header nav ul {
-      display: block; }
+      margin-top: 20px 30px ;
+      margin-left: 100px;
+      display: block;
+
+   }
 @media(min-width: 700px) {
       header nav ul {
       display: flex;
-      justify-content: space-around;
+      justify-content: space-between;
   }
 }
 

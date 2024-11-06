@@ -1,0 +1,14 @@
+/* Description: start */
+/* reset */
+* {
+   box-sizing: border-box; /* width and height include paddings and borders */
+   margin: 0; /* wipe out browser differences */
+   padding: 0; /* wipe out browser differences */ 
+}
+
+/* picture */
+img {
+   border: 0;
+   max-width: 100%;
+}
+   

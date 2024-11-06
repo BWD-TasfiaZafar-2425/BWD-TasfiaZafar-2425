@@ -1,0 +1,212 @@
+/* Description: index page*/
+
+
+body {
+   margin: 0;
+   padding: 0;
+}
+
+.wrapper {
+   width: 90%;
+   max-width: 1200px;
+   margin: 0 auto;
+}
+
+/* Header */
+header {
+   background-color: var(--primary-color);
+   padding: 20px 0;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+/* logo */
+.logo h1 {
+   margin: 0;
+   font-size: 36px;
+}
+
+.logo p {
+   font-size: 16px;
+   margin-top: -10px;
+}
+/* nav */
+nav {
+   margin-left: auto;}
+
+#mainmenu {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+   display: flex;
+   gap: 20px;
+}
+
+#mainmenu li {
+   display: inline;
+}
+
+#mainmenu li a {
+   text-decoration: none;
+   color: #333;
+}
+
+#mainmenu .active a {
+   font-weight: bold;
+}
+
+
+/* Banner */
+#banner {
+   background-image: url('../img/banner.jpg');
+   background-size: cover;
+   background-position: center;
+   padding: 80px 0;
+   color: rgb(1, 1, 1);
+   text-align: center;
+}
+
+
+/* button */
+.btn-cta {
+   background-color: var(--secondary-color);
+   color: white;
+   padding: 10px 20px;
+   text-decoration: none;
+   border-radius: 5px;
+}
+
+/* Main Layout */
+
+main {
+   display: flex;
+   margin-top: 5px;
+
+   .wrapper {
+      content: right;
+   }
+
+   /* Left Column */
+   .mainleft {
+      display: flex;
+      flex-wrap: wrap;
+      float: left;
+      padding: 20px 20px 0 15px;
+      padding-right: 20px;
+      width: calc(100% - 130px);
+   }
+
+   .mainleft h2 {
+      font-size: 28px;
+      margin-bottom: 10px;
+   }
+
+   .mainleft p {
+      line-height: 1.6;
+   }
+
+   /* gallery pictures */
+   }
+   #gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 30px 0;
+      justify-content: space-around;
+   }
+
+   #gallery a {
+      flex: 1 1 calc(33.333% - 10px);
+      /* Creates a responsive grid layout */
+      max-width: 200px;
+      max-height: 150px;
+   }
+
+   #gallery img {
+      width: 100%;
+      display: block;
+      object-fit: cover;
+   }
+
+/* main */
+   .mainright {
+      float: right;
+      padding: 35px 15px 0 15px;
+      width: 320px;
+      justify-content: right;
+
+      .mainright h2 {
+         font-size: 24px;
+         margin-bottom: 15px;
+         text-align: right;
+      }
+
+      .mainright h3 a {
+         border-bottom: 1px solid #ccc;
+         color: #333;
+      }
+
+      .workshop {
+         margin-bottom: 20px;
+      }
+
+      .workshop .date {
+         font-size: 24px;
+         text-align: center;
+         border: #ccc;
+         padding: 10px;
+         margin-bottom: 10px;
+         width: 60px;
+
+      }
+      .workshop .day{
+         font-size: 60px;
+         line-height: 1em;
+      }
+
+      .thumb {
+         width: 100%;
+         margin-bottom: 10px;
+      }
+   }
+
+
+/* Footer */
+footer {
+   background-color: #f0f0f0;
+   color: white;
+   text-align: left;
+   padding: 10;
+   margin-top: 5px;
+}
+
+#social_icons {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+   display: flex;
+   justify-content: right;
+   gap: 10px;
+}
+
+#social_icons li {
+   display: inline;
+}
+
+#social_icons a img {
+   width: 24px;
+}
+
+/* Links */
+.lnk-cta, .readmore {
+   color: var(--secondary-color);
+   text-decoration: none;
+}
+
+/* Clear floats */
+header::after, nav::after {
+   content: "";
+   display: table;
+   clear: both;
+}

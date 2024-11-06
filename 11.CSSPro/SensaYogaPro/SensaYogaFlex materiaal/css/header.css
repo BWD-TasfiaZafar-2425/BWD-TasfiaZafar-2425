@@ -1,0 +1,32 @@
+
+/* ===========================================
+   Description: Header
+   =========================================== */
+/* header */
+   .page_header {
+      background: var(--primary-color);
+   } 
+   
+   header p {
+      margin: 0;
+   } 
+   
+   header .wrapper {
+      padding: 30px 0;
+   }  
+   
+   /* logo */
+   
+   .header_title {
+      font-size: 48px;
+   }
+   
+   
+   .header_subtitle {
+      color: #555;
+      font-size: 14px;
+      font-style: italic;
+      text-align: right;
+   }
+   
+   

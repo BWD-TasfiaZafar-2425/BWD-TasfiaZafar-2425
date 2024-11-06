@@ -1,0 +1,8 @@
+/* Description: main styles */
+/* begin common styles */
+@import "css/common.css";
+@import "css/footer.css";
+@import "css/header.css";
+@import "css/navigation.css";
+/* einde common styles */
+@import "css/forms.css";

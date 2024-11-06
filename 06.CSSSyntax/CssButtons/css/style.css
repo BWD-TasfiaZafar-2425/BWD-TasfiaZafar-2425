@@ -2,7 +2,6 @@
 body {
    font-family: Verdana, sans-serif;
    background-color: #f9f9f9;
-   color: #333;
    padding: 20px;
 }
 
@@ -42,6 +41,7 @@ h2 {
 
 .btn-green:hover {
    background-color: #8db030;
+   color: #000;
 }
 
 /* Button 2: Favorite Button */
@@ -61,6 +61,8 @@ h2 {
 
 .btn-favorite:hover {
    transform: scale(1.1);
+   font-size: 50px;
+   color: #e53516;
 }
 
 /* Button 3: TikTok Button */
@@ -68,23 +70,25 @@ h2 {
    display: inline-block;
    background-color: #f0f0f0;
    background-repeat: no-repeat;
-   background-position: 10px center;
+   background-position-x: left;
+   background-position-y: center;
    background-size: 32px;
-   padding: 10px 20px 10px 50px;
+   padding: 10px 15px 10px 15px;
    font-size: 16px;
    color: #000;
-   text-decoration: underline;
-   border-radius: 8px;
+    border-radius: 0px;
    transition: background-color 0.3s ease;
 }
 
 .btn-tiktok img {
    width: 60px;
    height: 59px;
-   margin-right: 10px;
+   margin-right: 20px;
    vertical-align: bottom;
 }
 
+
 .btn-tiktok:hover {
    background-color: #e0e0e0;
+   text-decoration: underline;
 }
