@@ -1,0 +1,91 @@
+h1 {
+   font-family: "Lovers Quarrel", cursive;
+   font-weight: 400;
+   font-style: normal;
+   margin: 50px 50px
+}
+
+nav li {
+   display: flex;
+   font-family: "Lovers Quarrel", cursive;
+   padding: 10px 0px;
+   list-style: none;
+   margin: 0px 50px;
+}
+
+#Menu {
+   background-color: plum;
+   font-family: Arial, sans-serif;
+   list-style: none;
+   padding: 10px 0px;
+   display: flex;
+   justify-content: space-around;
+}
+
+#Menu li{
+   display: block;
+   margin: 0 10px;
+}
+
+
+#Menu a {    color: #444;
+   display: block;
+   padding: 10px;
+   text-decoration: none;
+   text-underline-offset: 3px;
+   font-size: 16px; 
+}
+
+* {
+   background-color: plum;
+}
+
+nav a {
+   display: block;
+   text-decoration: none;
+   color: pink;
+}
+
+a[title*=NL], a[title*=EN] {
+   text-decoration: none;
+   color: #834;
+}
+
+img {
+   border-radius: 10px solid;
+}
+
+nav li::before {
+   content: "💗";
+   font-size: 5px;
+   font-weight: bold;
+}
+
+nav li::after {
+   content: "💗";
+   font-size: 5px;
+   font-weight: bolder;
+}
+
+blockquote {
+   color: #7b7;
+   font-family: "Indie flower", cursive;
+   font-weight: 400;
+   font-size: small;
+   line-height: 0.5;
+}
+
+.Override {
+   color: rgb(31, 147, 236);
+}
+figure {
+   background-color: #ccc;
+   transition: background 0.5s, width 1s; /* transities */
+   width: 200px;
+}
+figure:hover {
+   background-color: #ee3c87;
+   border-radius: 0 15px 15px 0;
+   color: white;
+   width: 300px;
+}
